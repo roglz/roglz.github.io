@@ -1,0 +1,53 @@
+body {
+    font-family: "Roboto Slab", serif;
+    padding-top: 56px;
+}
+
+.hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #F5F5F5;
+
+    background: url("../images/bg_image.jpg") no-repeat center center/cover;
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(57, 54, 70, 0.8), rgba(109, 93, 110, 0.8));
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.terminal {
+    font-family: "Inconsolata", serif; 
+}
+.cursor {
+    display: inline-block;
+    width: 0.5em;
+    height: 1em;
+    background-color: #F5F5F5;
+    animation: blink 0.8s infinite;
+    vertical-align: middle;
+}
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}

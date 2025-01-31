@@ -1,0 +1,15 @@
+[
+    {
+        "title": "MXESCO-DOCKER",
+        "description": "A modular FastAPI-based application for audio processing, featuring transcription, phonemization, metadata generation, and MongoDB storage. Powered by Whisper, Wav2Vec2, and Docker.",
+        "url": "https://github.com/roglz/mxesco-docker",
+        "image": "assets/images/MXesco.png"
+    },
+
+    {
+        "title": "Nested Maps",
+        "description": "A quick guide to improving maps visualization with Dash-Leaflet.",
+        "url": "https://github.com/roglz/nested_maps",
+        "image": "assets/images/nested_maps.png"
+    }
+]
