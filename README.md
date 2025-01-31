@@ -6,7 +6,7 @@
 
 Welcome to my **personal portfolio** website! This site showcases my work in **Data Science, AI, and software development**, featuring my latest projects and blog posts.
 
-🔗 **[Visit my portfolio](https://roglz.github.io/my-portfolio/)**
+🔗 **[Visit my portfolio](https://roglz.github.io/)**
 
 ## Project Structure
 
@@ -38,15 +38,12 @@ cd my-portfolio
 - Replace images inside `assets/images/`.
 - Update styles in `assets/css/styles.css` if needed.
 
-### Deployment (GitHub Pages)
-This project is **deployed via GitHub Pages**. To set up:
-1. Go to your GitHub repository.
-2. Navigate to **Settings** > **Pages**.
-3. Under **Source**, select `main` (or `gh-pages` if using a separate branch).
-4. Save, and your portfolio will be live at:
-```
-https://yourusername.github.io/your-repo-name/
-```
+If you want to use GitHub Pages to deploy this project, consider following the official guide:
+
+🔗 **[GitHub Pages - Getting Started](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site)**
+
+This guide will walk you through the necessary steps to publish your site using GitHub Pages./yourusername.github.io/your-repo-name/
+
 
 ## Technologies Used
 - HTML5, CSS3, JavaScript (ES6+)
